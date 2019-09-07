@@ -32,7 +32,7 @@ The state consists of sytem variables and errors references: `[x,y,psi,v,cte,eps
 
 - The update equations
 
-![image](./Images/Equations.png)
+![image](./images/Equations.png)
 
 `Lf` measures the distance between the front of the vehicle and its center of gravity. `f(x)` is the evaluation of the polynomial f at point `x` and `psidest` is the tangencial angle of the polynomial `f` evaluated at `x`.
 
@@ -140,7 +140,7 @@ Acceleration is -1 to 1 and yaw angle is -25 degree to 25 degree.
 
 Under the current parameters of my settings(the reference speed is 80), the car can run several times successfully, the reference speed becomes higher, and it may fail. The lower the reference speed setting, the longer the normal time.
 
-![image](./Images/run.png)
+![image](./images/run.png)
 
 ## Unresolved issue :
 
